@@ -35,7 +35,7 @@ set( CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin )
 
 #Если ваша версия GCC меньше, чем 4.7.0, вместо -std=c++11 нужно использовать -std=c++0x.
 #set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -Wall" )
-set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -pipe -Wall" )
+set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -pipe -Wall" ) 
 
 #set( CMAKE_SHARED_LIBRARY_C_FLAGS "-fpic" )
 
